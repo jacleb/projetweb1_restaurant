@@ -1,0 +1,186 @@
+body {
+  background-color: #1C1B19;
+  color: white;
+  max-width: 100%;
+}
+body h1, body h2.h1 {
+  font-family: futura-pt-bold, sans-serif;
+  font-size: 71px;
+  font-weight: 700;
+  letter-spacing: 2.13px;
+  line-height: 91px;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+  color: white !important;
+}
+body h2 {
+  font-family: futura-pt-bold, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: 50px;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+}
+body h3 {
+  font-family: futura-pt, sans-serif;
+  font-size: 32px;
+  letter-spacing: 0.96px;
+  line-height: 41px;
+}
+body h4, body label {
+  font-family: futura-pt, sans-serif;
+  font-size: 22px;
+  letter-spacing: 0.8px;
+  line-height: 26px;
+}
+body h5 {
+  font-family: futura-pt-bold, sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.6px;
+  line-height: 30px;
+}
+body h6 {
+  font-family: proxima-nova, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.36px;
+  line-height: 30px;
+}
+body a {
+  font-family: proxima-nova, sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  color: #B29170 !important;
+  letter-spacing: 0.45px !important;
+  text-decoration: none;
+}
+body p {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 30px;
+  margin: 0px;
+}
+body span {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 1.25px;
+  line-height: 20px;
+  margin: 0px;
+}
+body .active_link {
+  background: linear-gradient(to right, #151718, #303132) !important;
+  border: 2px solid #B29170 !important;
+  box-sizing: border-box !important;
+  outline: 2px solid #262828 !important;
+}
+body .link_border {
+  border: 2px solid rgba(0, 0, 0, 0);
+  box-sizing: border-box !important;
+  color: #B29170 !important;
+  outline: 2px solid rgba(0, 0, 0, 0) !important;
+}
+body .link_border:hover, body .link_border:active {
+  background: linear-gradient(to right, #151718, #303132) !important;
+  border: 2px solid #B29170 !important;
+  box-sizing: border-box !important;
+  outline: 2px solid #262828 !important;
+}
+body .social_icon {
+  height: 35px;
+  padding: 7px;
+}
+body ::-moz-placeholder {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: italic;
+  letter-spacing: 0.6px;
+}
+body :-ms-input-placeholder {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: italic;
+  letter-spacing: 0.6px;
+}
+body ::placeholder {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: italic;
+  letter-spacing: 0.6px;
+}
+body .error {
+  color: rgb(255, 85, 85);
+}
+body .success {
+  color: rgb(255, 255, 145);
+}
+
+header .header_nav {
+  background-color: #1C1B19;
+  height: 100px;
+  padding: 0px 100px;
+}
+header .header_nav .nav_logo {
+  height: 66.47px;
+  width: 100px;
+}
+header .header_nav .bg-dark {
+  background-color: #1C1B19 !important;
+}
+header .header_nav .navbar-toggler {
+  border: 2px solid #B29170;
+  border-radius: 0;
+}
+header .header_nav .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(178, 145, 112)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+footer .copyright {
+  color: #B29170;
+  margin-top: 140px;
+}
+footer .copyright img {
+  height: 20px;
+  margin-right: 15px;
+}
+
+.list_container {
+  margin: auto;
+  max-width: 1140px;
+}
+.list_container .list {
+  border: 2px solid #B29170;
+  width: 100%;
+}
+.list_container .list .list_title {
+  background-image: url(../media/images/bg_menu_title.jpg);
+  border-bottom: 2px solid #B29170;
+  height: 154px;
+  width: 100%;
+}
+.list_container .list .list_description {
+  max-width: 830px;
+}
+.list_container .bottom_list {
+  margin-bottom: 150px;
+}
+
+.error404 {
+  background: url(../media/images/bg_menu_g4.png) no-repeat center;
+  background-size: contain;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  max-height: 100%;
+}
+.error404 a {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border: 2px solid #B29170 !important;
+  outline: 2px solid #262828 !important;
+}
+.error404 .error {
+  color: #D26262;
+}/*# sourceMappingURL=style.css.map */

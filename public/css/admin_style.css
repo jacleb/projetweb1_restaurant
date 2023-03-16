@@ -1,0 +1,175 @@
+.blurred_card {
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
+  background-color: rgba(165, 165, 165, 0.35);
+}
+
+.admin_button {
+  background-color: #B29170 !important;
+  border: 2px solid rgba(28, 27, 25, 0) !important;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5) !important;
+  box-sizing: border-box !important;
+  color: white !important;
+  font-family: proxima-nova, sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.45px !important;
+  padding: 10px 22px !important;
+}
+.admin_button:hover {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5) !important;
+  box-sizing: border-box !important;
+  color: #1C1B19 !important;
+}
+
+.access_refused {
+  background-color: #1C1B19;
+  border: 2px solid rgb(255, 85, 85);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+#category_modify_button, #category_delete_button {
+  background-color: #1C1B19 !important;
+  outline: 2px solid #262828 !important;
+}
+#category_modify_button:hover, #category_delete_button:hover {
+  background: linear-gradient(to right, #151718, #303132) !important;
+}
+
+#category_modify_button {
+  border: 2px solid #B29170;
+}
+
+#category_delete_button {
+  border: 2px solid #D26262;
+  color: #D26262 !important;
+}
+#category_delete_button:hover {
+  border-color: #D26262 !important;
+}
+
+.modify_button {
+  color: #B29170;
+  font-weight: bold;
+}
+
+#delete_button {
+  color: #D26262 !important;
+  font-weight: bold;
+}
+#delete_button:hover {
+  border-color: #D26262 !important;
+}
+
+.user_name {
+  color: #B29170;
+  padding: 7px 7px 7px 10px;
+}
+
+.admin, .admin_bloc {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  max-width: 100%;
+  margin-top: 100px;
+}
+.admin .admin_bloc, .admin_bloc .admin_bloc {
+  background-image: url("../media/images/bg_admin.webp");
+  height: calc(100vh - 200px);
+}
+.admin .admin_bloc .admin_main_section, .admin_bloc .admin_bloc .admin_main_section {
+  width: 1140px;
+}
+.admin .admin_bloc .admin_main_section h1, .admin_bloc .admin_bloc .admin_main_section h1 {
+  font-style: italic;
+}
+.admin .admin_bloc .admin_main_section h2, .admin_bloc .admin_bloc .admin_main_section h2 {
+  margin-bottom: 50px;
+  padding: 0px 10px;
+}
+
+.admin {
+  min-height: calc(100vh - 250px);
+}
+.admin .list_container {
+  height: 100%;
+  margin: 150px auto 50px;
+}
+
+#admin_login_page .blurred_card {
+  height: 487px;
+  min-width: 536px;
+}
+#admin_login_page .blurred_card form {
+  width: 330px;
+}
+#admin_login_page .blurred_card form div {
+  width: 100%;
+}
+#admin_login_page .blurred_card form div .login_password {
+  margin: 50px 0px;
+}
+#admin_login_page .blurred_card form div label, #admin_login_page .blurred_card form div .error {
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.65);
+}
+#admin_login_page .blurred_card form div .error {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+#admin_homepage .blurred_card {
+  height: 452px;
+  width: 100%;
+}
+
+#admin_list_page .list {
+  width: 1140px;
+  margin-bottom: 150px;
+}
+#admin_list_page .list .list_entry {
+  border-bottom: 1px solid rgba(178, 145, 112, 0.5450980392);
+}
+#admin_list_page .list .list_entry .list_description {
+  max-width: 725px;
+}
+
+#admin_form_page .admin_bloc {
+  background-image: none;
+}
+#admin_form_page .admin_bloc .bg_black {
+  background-color: #1C1B19;
+  height: 100%;
+  max-width: 1140px;
+  width: 100%;
+}
+#admin_form_page .admin_bloc .bg_black h3 {
+  font-weight: 600;
+}
+#admin_form_page .admin_bloc .bg_black .form_title {
+  width: 55%;
+}
+#admin_form_page .admin_bloc .bg_black .form_category {
+  width: 25%;
+}
+#admin_form_page .admin_bloc .bg_black .form_new_category {
+  width: 75%;
+}
+#admin_form_page .admin_bloc .bg_black .form_price {
+  width: 10%;
+}
+#admin_form_page .admin_bloc .bg_black .form_price .input_price {
+  height: 38px !important;
+  padding-left: 10px;
+  border: none;
+}
+#admin_form_page .admin_bloc .bg_black .form_price .input_price:active, #admin_form_page .admin_bloc .bg_black .form_price .input_price:focus {
+  border-radius: 0px;
+  outline: none;
+}
+
+#admin_footer {
+  background: none;
+  height: 100px;
+}
+#admin_footer .copyright {
+  margin-top: 0px;
+}/*# sourceMappingURL=admin_style.css.map */
